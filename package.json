@@ -1,0 +1,31 @@
+{
+  "name": "vue-vac",
+  "description": "This component is a debugging tool that helps you develop components without templates.",
+  "version": "0.0.0",
+  "author": "Park U-Yeong <ascript0@gmail.com>",
+  "scripts": {
+    "dev": "webpack-dev-server --config webpack/demo --open --inline --hot",
+    "build": "webpack --config webpack/prod --progress --hide-modules",
+    "prepublish": "npm run build"
+  },
+  "main": "dist/index.js",
+  "dependencies": {},
+  "peerDependencies": {
+    "vue": "2.x"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-preset-es2015": "^6.0.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "cross-env": "^3.0.0",
+    "css-loader": "^0.25.0",
+    "file-loader": "^0.9.0",
+    "vue": "^2.1.0",
+    "vue-loader": "^10.0.0",
+    "vue-style-loader": "^1.0.0",
+    "vue-template-compiler": "^2.1.0",
+    "webpack": "^2.1.0-beta.25",
+    "webpack-dev-server": "^2.1.0-beta.9"
+  }
+}
